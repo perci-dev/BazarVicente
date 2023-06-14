@@ -1,0 +1,344 @@
+[
+   
+    {
+        "id": "casaca-01",
+        "titulo": "Casaca Azul",
+        "imagen": "./img/casacas/casaca azul.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 199,
+        "stock":40
+    },
+    {
+        "id": "casaca-02",
+        "titulo": "Casaca fit negro",
+        "imagen": "./img/casacas/casaca fit negro.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 299,
+        "stock":40
+    },
+    {
+        "id": "casaca-03",
+        "titulo": "Casaca negro",
+        "imagen": "./img/casacas/casaca negro.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 129,
+        "stock":40
+    },
+    {
+        "id": "casaca-04",
+        "titulo": "Casaca regular fit azul",
+        "imagen": "./img/casacas/casaca regular fit azul.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 199,
+        "stock":40
+    },
+    {
+        "id": "casaca-05",
+        "titulo": "Casaca regular fit beige",
+        "imagen": "./img/casacas/casaca regular fit beige.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 199,
+        "stock":40
+    },
+
+
+    {
+        "id": "casaca-06",
+        "titulo": "Casaca regular fit celeste",
+        "imagen": "./img/casacas/casaca regular fit celeste.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 299,
+        "stock": 20
+    },
+
+    {
+        "id": "casaca-07",
+        "titulo": "Casaca regular fit negro",
+        "imagen": "./img/casacas/casaca regular fit negro.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 149,
+        "stock": 40
+    },
+    {
+        "id": "casaca-08",
+        "titulo": "Casaca slim marron",
+        "imagen": "./img/casacas/casaca slim marron.jpg",
+        "categoria": {
+            "nombre": "Casacas",
+            "id": "casacas"
+        },
+        "precio": 179,
+        "stock":40
+    },
+   
+    {
+        "id": "pantalon-01",
+        "titulo": "Croped rojo",
+        "imagen": "./img/pantalones/croped rojo.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 128,
+        "stock":40
+    },
+    
+    {
+        "id": "pantalon-02",
+        "titulo": "Croped",
+        "imagen": "./img/pantalones/croped.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 148,
+        "stock":40
+    },
+
+    {
+        "id": "pantalon-03",
+        "titulo": "Jean azul",
+        "imagen": "./img/pantalones/jean azul.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 168,
+        "stock":40
+    },
+
+    {
+        "id": "pantalon-04",
+        "titulo": "Jean clasic celeste",
+        "imagen": "./img/pantalones/jean clasic celeste.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 148,
+        "stock":40
+    },
+
+    {
+        "id": "pantalon-05",
+        "titulo": "Pierss",
+        "imagen": "./img/pantalones/pierss.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 148,
+        "stock":40
+    },
+
+    {
+        "id": "pantalon-06",
+        "titulo": "Skinny marron",
+        "imagen": "./img/pantalones/skinny marron.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 198,
+        "stock":40
+    },
+
+    {
+        "id": "pantalon-07",
+        "titulo": "Slim azul",
+        "imagen": "./img/pantalones/slim azul.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 148,
+        "stock":40
+    },
+
+
+    {
+        "id": "polera-01",
+        "titulo": "polera film multicolor",
+        "imagen": "./img/poleras/polera film multicolor.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 168,
+        "stock":10
+    },
+    {
+        "id": "polera-02",
+        "titulo": "polera fit azul",
+        "imagen": "./img/poleras/polera fit azul.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 148,
+        "stock":12
+    },
+    {
+        "id": "polera-03",
+        "titulo": "polera fit roja",
+        "imagen": "./img/poleras/polera fit roja.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 128,
+        "stock":20
+    },
+
+    {
+        "id": "polera-04",
+        "titulo": "polera fit rojo",
+        "imagen": "./img/poleras/polera fit rojo.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 198,
+        "stock":10
+    },
+    {
+        "id": "polera-05",
+        "titulo": "polera fit rosa",
+        "imagen": "./img/poleras/polera fit rosa.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 128,
+        "stock":12
+    },
+    {
+        "id": "polera-06",
+        "titulo": "polera fit verde",
+        "imagen": "./img/poleras/polera fit verde.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 138,
+        "stock":20
+    },
+    {
+        "id": "polera-07",
+        "titulo": "polera regular blanca",
+        "imagen": "./img/poleras/polera regular blanca.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 158,
+        "stock":10
+    },
+    {
+        "id": "polera-08",
+        "titulo": "polera roja",
+        "imagen": "./img/poleras/polera roja.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 168,
+        "stock":12
+    },
+    {
+        "id": "polera-09",
+        "titulo": "polera rosa",
+        "imagen": "./img/poleras/polera rosa.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "poleras"
+        },
+        "precio": 128,
+        "stock":20
+    },
+
+   
+
+    {
+        "id": "zapatilla-01",
+        "titulo": "galaxi",
+        "imagen": "./img/zapatillas/galaxi.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 178,
+        "stock":10
+    },
+
+    {
+        "id": "zapatilla-03",
+        "titulo": "nike gala",
+        "imagen": "./img/zapatillas/nike-gala.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 168,
+        "stock":10
+    },
+
+    {
+        "id": "zapatilla-06",
+        "titulo": "tensaur",
+        "imagen": "./img/zapatillas/tensaur.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 238,
+        "stock":10
+    },
+
+    {
+        "id": "zapatilla-07",
+        "titulo": "Urbanas",
+        "imagen": "./img/zapatillas/Urbanas.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 238,
+        "stock":10
+    },
+  
+
+    {
+        "id": "zapatilla-08",
+        "titulo": "vans old skool",
+        "imagen": "./img/zapatillas/vans-old-skool.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 238,
+        "stock":10
+    } 
+    
+]
