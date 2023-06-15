@@ -54,7 +54,7 @@ function controlCart(){
     }
     );
     actualizarNumCard();   
-    if(productCart.length > 0 ){
+    if(productCart.length > 0){
          emptyCart.classList.add("disabled");
          productsCart.classList.remove("disabled");
          actionsCart.classList.remove("disabled");
@@ -93,12 +93,17 @@ function inicializarEventos(){
     btnVaciar.addEventListener("click", vaciarCarrito);  
       
 }
-/* llamando libreria*/ 
+/* llamando libreria en funcion finalizar compra*/ 
 function finalizarCompra(){
     let totaPago = actualizarTotal();
     let nCompra = Math.floor((Math.random() * (999999 - 100000 + 1)) + 100000);
     swal("Compra finalizada!", `Gracias por su compra! se ha pagado: ${totaPago}. \n N° orden de compra :  ${nCompra} ` , "success");
     vaciarCarrito();
+            
+         emptyCart.classList.add("disabled");
+         productsCart.classList.add("disabled");
+         actionsCart.classList.add("disabled");
+         storageCart.classList.remove("disabled");
 }
 function eventosBotones() { 
     eventoBotonesIncre = document.querySelectorAll(".aumentar");
@@ -120,7 +125,6 @@ function eventosBotones() {
 
 function vaciarCarrito(){
     localStorage.setItem('producto-carrito', []);
-   
     productCart = [];
     controlCart();    
 }
@@ -182,8 +186,6 @@ function disminuirProducto(eve){
     controlCart();
  
 }
-
-    
 
 function eliminar(eve){
     const idProducto = eve.currentTarget.id;
