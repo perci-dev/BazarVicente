@@ -108,9 +108,6 @@ function finalizarCompra(){
          actionsCart.classList.add("disabled");
          storageCart.classList.remove("disabled");
 
-         setTimeout(()=>{
-            contenedor.style.background ="green"
-         }, 2000) 
 }
 
 
