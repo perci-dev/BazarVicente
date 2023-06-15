@@ -7,6 +7,7 @@ const emptyCart = document.querySelector("#carrito-vacio");
 const productsCart = document.querySelector("#productos-carrito");
 const actionsCart = document.querySelector("#acciones-carrito");
 const storageCart = document.querySelector("#comprar-carrito");
+const contenedor =document.querySelector("main");
 
 
 
@@ -94,6 +95,8 @@ function inicializarEventos(){
       
 }
 /* llamando libreria en funcion finalizar compra*/ 
+
+
 function finalizarCompra(){
     let totaPago = actualizarTotal();
     let nCompra = Math.floor((Math.random() * (999999 - 100000 + 1)) + 100000);
@@ -104,7 +107,13 @@ function finalizarCompra(){
          productsCart.classList.add("disabled");
          actionsCart.classList.add("disabled");
          storageCart.classList.remove("disabled");
+
+         setTimeout(()=>{
+            contenedor.style.background ="green"
+         }, 2000) 
 }
+
+
 function eventosBotones() { 
     eventoBotonesIncre = document.querySelectorAll(".aumentar");
     eventoBotonesIncre.forEach(boton => {
@@ -123,10 +132,15 @@ function eventosBotones() {
 
  }
 
+
 function vaciarCarrito(){
     localStorage.setItem('producto-carrito', []);
     productCart = [];
-    controlCart();    
+    controlCart(); 
+    setTimeout(()=>{
+        contenedor.style.background ="red"
+     }, 2500)  
+     
 }
 
 
